@@ -1,14 +1,14 @@
 Step 1: Create a new Flutter project
 Run the following command to create a new Flutter project:
 
-bash
-Copy code
+```bash
 flutter create multi_screen_app
-Step 2: Update main.dart
+```
+
+## Step 2: Update main.dart
 Replace the content of main.dart with the following code:
 
-dart
-Copy code
+```dart
 import 'package:flutter/material.dart';
 import 'screens/tab_screen.dart';
 
@@ -28,11 +28,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-Step 3: Create TabScreen widget
+```
+
+## Step 3: Create TabScreen widget
 Create a new file tab_screen.dart and define the TabScreen widget:
 
-dart
-Copy code
+```dart
 import 'package:flutter/material.dart';
 import 'screens/screen1.dart';
 import 'screens/screen2.dart';
@@ -65,13 +66,14 @@ class TabScreen extends StatelessWidget {
     );
   }
 }
-Step 4: Create Screen1, Screen2, and Screen3 widgets
+```
+
+## Step 4: Create Screen1, Screen2, and Screen3 widgets
 Create three separate files screen1.dart, screen2.dart, and screen3.dart with the respective widget content for each screen. For example:
 
 screen1.dart:
 
-dart
-Copy code
+```dart
 import 'package:flutter/material.dart';
 
 class Screen1 extends StatelessWidget {
@@ -82,10 +84,11 @@ class Screen1 extends StatelessWidget {
     );
   }
 }
-screen2.dart:
+```
 
-dart
-Copy code
+### screen2.dart:
+
+```dart
 import 'package:flutter/material.dart';
 
 class Screen2 extends StatelessWidget {
@@ -96,10 +99,12 @@ class Screen2 extends StatelessWidget {
     );
   }
 }
-screen3.dart:
 
-dart
-Copy code
+```
+
+### screen3.dart:
+
+```dart
 import 'package:flutter/material.dart';
 
 class Screen3 extends StatelessWidget {
@@ -110,9 +115,10 @@ class Screen3 extends StatelessWidget {
     );
   }
 }
-Step 5: Run the application
-Execute the following command to run your Flutter app:
+```
 
+### Step 5: Run the application
+Execute the following command to run your Flutter app:
 ```
 flutter run
 ```
