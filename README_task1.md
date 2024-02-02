@@ -1,4 +1,4 @@
-#Adding a Home Screen Widget to Your Flutter App
+# Adding a Home Screen Widget to Your Flutter App
 
 This guide explains how to add a home screen widget (app launcher icon) to your Flutter app using the `flutter_launcher_icons` package.
 
